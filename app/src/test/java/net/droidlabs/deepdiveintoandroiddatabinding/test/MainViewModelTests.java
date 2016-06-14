@@ -16,7 +16,7 @@ public class MainViewModelTests
     ISendService sendService;
 
     @Test
-    public void mainViewModel_sendAction_sendService_send() throws Exception
+    public void mainViewModel_sendAction_sendService_send()
     {
         MainViewModel viewModel = new MainViewModel(sendService);
 
