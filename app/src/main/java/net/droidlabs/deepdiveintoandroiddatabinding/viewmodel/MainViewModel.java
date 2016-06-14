@@ -22,7 +22,7 @@ public class MainViewModel extends BaseObservable
 
     public void sendAction()
     {
-        this.sendService.send();
+        this.sendService.send(twoWayText);
     }
 
     public void sendAction(View view)

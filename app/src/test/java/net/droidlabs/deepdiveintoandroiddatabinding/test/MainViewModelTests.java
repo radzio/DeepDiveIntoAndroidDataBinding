@@ -18,10 +18,12 @@ public class MainViewModelTests
     @Test
     public void mainViewModel_sendAction_sendService_send()
     {
-        MainViewModel viewModel = new MainViewModel(sendService);
+        final MainViewModel viewModel = new MainViewModel(sendService);
+        final String givenText = "my text";
 
+        viewModel.setTwoWayText(givenText);
         viewModel.sendAction();
 
-        verify(sendService).send();
+        verify(sendService).send(givenText);
     }
 }

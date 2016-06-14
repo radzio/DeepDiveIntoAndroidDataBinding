@@ -17,4 +17,10 @@ public class SendService implements ISendService
     {
         Toast.makeText(this.context, "Message was sent!", Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    public void send(String text)
+    {
+        Toast.makeText(this.context, String.format("Message '%s' was sent!", text), Toast.LENGTH_SHORT).show();
+    }
 }
