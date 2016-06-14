@@ -8,7 +8,7 @@ import net.droidlabs.deepdiveintoandroiddatabinding.services.Navigator;
 public class NavigationViewBindings
 {
     @BindingAdapter({"navigator"})
-    public static void bindNaviagor(final NavigationView navigationView, final Navigator navigator)
+    public static void bindNavigator(final NavigationView navigationView, final Navigator navigator)
     {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener()
         {
