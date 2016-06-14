@@ -11,4 +11,5 @@
     <string name="txt_two_way_data_binding">Two Way Data Binding</string>
     <string name="txt_repeated_expression">Repeated Expression #1</string>
     <string name="txt_repeated_expression_2">Repeated Expression #2</string>
+    <string name="txt_set_defined_color">Set defined color</string>
 </resources>

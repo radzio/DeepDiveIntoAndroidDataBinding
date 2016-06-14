@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:bind="http://schemas.android.com/apk/res-auto"
-    >
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <data>
 
         <variable
             name="viewModel"
-            type="net.droidlabs.deepdiveintoandroiddatabinding.viewmodel.TwoWayViewModel"></variable>
+            type="net.droidlabs.deepdiveintoandroiddatabinding.viewmodel.TwoWayViewModel"/>
 
         <import type="android.graphics.Color"/>
     </data>
@@ -34,7 +33,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Set defined color"
+            android:text="@string/txt_set_defined_color"
             android:onClick="@{() -> viewModel.setColor(Color.parseColor(`#C97249`))}"
             />
     </LinearLayout>
