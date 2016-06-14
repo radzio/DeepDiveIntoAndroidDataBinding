@@ -21,9 +21,9 @@ public abstract class ColorPickerViewBindings
     }
 
     @BindingAdapter("colorAttrChanged")
-    public static void setColorListener(ColorPickerView view, final InverseBindingListener colorChange)
+    public static void setColorListener(ColorPickerView view, final InverseBindingListener inverseBindingListener)
     {
-        if (colorChange == null)
+        if (inverseBindingListener == null)
         {
             view.setOnColorChangedListener(null);
         }
@@ -34,7 +34,7 @@ public abstract class ColorPickerViewBindings
                 @Override
                 public void onColorChanged(int newColor)
                 {
-                    colorChange.onChange();
+                    inverseBindingListener.onChange();
                 }
             });
         }
