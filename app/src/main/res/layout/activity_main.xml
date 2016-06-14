@@ -59,6 +59,12 @@
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{viewModel.model.title}"
+                    />
+
                 <include layout="@layout/layout_event_updates"/>
 
 

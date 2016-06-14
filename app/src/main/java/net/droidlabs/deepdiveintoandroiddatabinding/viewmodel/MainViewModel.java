@@ -4,6 +4,7 @@ import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.view.View;
 import net.droidlabs.deepdiveintoandroiddatabinding.BR;
+import net.droidlabs.deepdiveintoandroiddatabinding.persistence.Model;
 import net.droidlabs.deepdiveintoandroiddatabinding.services.ISendService;
 
 import javax.inject.Inject;
@@ -40,5 +41,10 @@ public class MainViewModel extends BaseObservable
     public String getTwoWayText()
     {
         return this.twoWayText;
+    }
+
+    public Model getModel()
+    {
+        return new Model().setTitle("test");
     }
 }

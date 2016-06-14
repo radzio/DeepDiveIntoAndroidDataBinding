@@ -36,6 +36,10 @@ dependencies {
 
     compile "com.github.danielnilsson9:color-picker-view:1.4.0@aar"
 
+    compile 'com.yahoo.squidb:squidb:2.0.2'
+    compile 'com.yahoo.squidb:squidb-annotations:2.0.2'
+    apt 'com.yahoo.squidb:squidb-processor:2.0.2'
+
     testCompile "junit:junit:4.12"
     testCompile "org.mockito:mockito-core:1.10.19"
 }
