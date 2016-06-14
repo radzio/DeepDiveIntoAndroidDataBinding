@@ -1,4 +1,4 @@
-# DeepDiveIntoAndroidDataBinding
+# Deep Dive Into Android Data Binding
 
 Demo app for Deep dive into Android Data Binding talks @ Droidcon Berlin 2016
 
@@ -12,4 +12,4 @@ Examples for:
 * Implied Event Updates
 * Repeated expressions
 
-RecyclerView binds are available here: https://github.com/radzio/android-data-binding-recyclerview
+RecyclerView bindings are available here: https://github.com/radzio/android-data-binding-recyclerview
