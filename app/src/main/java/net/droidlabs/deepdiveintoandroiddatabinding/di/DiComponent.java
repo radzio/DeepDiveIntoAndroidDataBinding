@@ -2,7 +2,7 @@ package net.droidlabs.deepdiveintoandroiddatabinding.di;
 
 import dagger.Component;
 import net.droidlabs.deepdiveintoandroiddatabinding.App;
-import net.droidlabs.deepdiveintoandroiddatabinding.MainActivity;
+import net.droidlabs.deepdiveintoandroiddatabinding.view.MainActivity;
 
 import javax.inject.Singleton;
 

@@ -3,7 +3,7 @@ package net.droidlabs.deepdiveintoandroiddatabinding.services;
 import android.content.Context;
 import android.content.Intent;
 import net.droidlabs.deepdiveintoandroiddatabinding.R;
-import net.droidlabs.deepdiveintoandroiddatabinding.TwoWayBindingActivity;
+import net.droidlabs.deepdiveintoandroiddatabinding.view.TwoWayBindingActivity;
 
 public class Navigator
 {

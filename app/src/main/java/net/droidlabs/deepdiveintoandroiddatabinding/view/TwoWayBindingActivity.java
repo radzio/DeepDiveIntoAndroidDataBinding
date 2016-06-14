@@ -1,9 +1,10 @@
-package net.droidlabs.deepdiveintoandroiddatabinding;
+package net.droidlabs.deepdiveintoandroiddatabinding.view;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import net.droidlabs.deepdiveintoandroiddatabinding.R;
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityTwoWayBinding;
 import net.droidlabs.deepdiveintoandroiddatabinding.viewmodel.TwoWayViewModel;
 

@@ -1,4 +1,4 @@
-package net.droidlabs.deepdiveintoandroiddatabinding;
+package net.droidlabs.deepdiveintoandroiddatabinding.view;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import net.droidlabs.deepdiveintoandroiddatabinding.App;
+import net.droidlabs.deepdiveintoandroiddatabinding.R;
 import net.droidlabs.deepdiveintoandroiddatabinding.databinding.ActivityMainBinding;
 import net.droidlabs.deepdiveintoandroiddatabinding.viewmodel.MainViewModel;
 import net.droidlabs.deepdiveintoandroiddatabinding.services.Navigator;
