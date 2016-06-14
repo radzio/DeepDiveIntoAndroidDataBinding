@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="net.droidlabs.deepdiveintoandroiddatabinding.viewmodel.TwoWayViewModel"></variable>
+
+        <import type="android.graphics.Color"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.danielnilsson9.colorpickerview.view.ColorPickerView
+            android:id="@+id/colorpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            bind:color="@={viewModel.color}"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={viewModel.color}"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set defined color"
+            android:onClick="@{() -> viewModel.setColor(Color.parseColor(`#C97249`))}"
+            />
+    </LinearLayout>
+</layout>

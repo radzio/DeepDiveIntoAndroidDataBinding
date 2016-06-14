@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Data Binding Demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txt_show_more">Show more!</string>
+    <string name="txt_gratulations">Gratulations!</string>
+    <string name="txt_event_updates">Event Updates</string>
+    <string name="txt_two_way_databinding">Two Way Databinding</string>
+    <string name="txt_repeated_expression">Repeated Expression #1</string>
+    <string name="txt_repeated_expression_2">Repeated Expression #2</string>
+</resources>
