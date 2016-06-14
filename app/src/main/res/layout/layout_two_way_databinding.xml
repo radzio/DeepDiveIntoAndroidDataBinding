@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="@string/txt_two_way_databinding"
+                android:text="@string/txt_two_way_data_binding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
