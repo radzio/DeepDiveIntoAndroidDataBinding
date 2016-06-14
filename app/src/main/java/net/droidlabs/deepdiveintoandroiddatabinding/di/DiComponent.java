@@ -15,7 +15,6 @@ public interface DiComponent
 
     void inject(MainActivity mainActivity);
 
-
     final class Initializer
     {
         private Initializer()
