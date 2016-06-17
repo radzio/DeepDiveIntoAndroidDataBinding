@@ -13,7 +13,9 @@ Examples for:
 * Repeated expressions
 * Special variables
 
-Presentation slides: https://speakerdeck.com/radzio/deep-dive-into-android-data-binding
+Presentation slides: 
+ * Speakerdeck: https://speakerdeck.com/radzio/deep-dive-into-android-data-binding
+ * Slideshare: http://www.slideshare.net/radekpiekarz/deep-dive-into-android-data-binding
 
 RecyclerView bindings are available here: https://github.com/radzio/android-data-binding-recyclerview
 
