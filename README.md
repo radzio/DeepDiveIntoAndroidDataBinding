@@ -19,4 +19,11 @@ Presentation slides:
 
 RecyclerView bindings are available here: https://github.com/radzio/android-data-binding-recyclerview
 
+### Recommended resources
+
+* [Advanced Data Binding - Google I/O 2016](https://www.youtube.com/watch?v=DAmMN7m3wLU)
+* [George Mount @ Medium](https://medium.com/@georgemount007)
+* [George Mount @ Wordpress.com](https://halfthought.wordpress.com/)
+
+
 
